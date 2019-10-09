@@ -1,7 +1,7 @@
 <template>
     <div class="Cart-computed">
         <button @click="reduce">-</button>
-        <input type="text" :value="computeNum">
+        <input disabled type="text" :value="computeNum">
         <button @click="add">+</button>
         &nbsp;&nbsp;
         <i>单个商品总价:{{this.$store.getters[this.price]}}</i>
