@@ -3,7 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
-button,input {
+
+button, input {
     border: 0;
     outline: 0;
+    cursor: pointer;
+}
+
+.btn {
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid skyblue;
+    font-size: 16px;
+    color: hotpink;
+    border-radius: 3px;
+    padding: 3px;
 }

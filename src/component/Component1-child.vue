@@ -42,5 +42,13 @@
 </script>
 
 <style scoped>
-
+    button {
+        margin: 10px;
+        background-color: #fff;
+        border: 1px solid skyblue;
+        font-size: 16px;
+        color: hotpink;
+        border-radius: 3px;
+        padding: 3px;
+    }
 </style>
